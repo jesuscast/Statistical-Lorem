@@ -133,6 +133,11 @@ class Analysis:
 containers = { type_of_text : Analysis(type_of_text) for type_of_text in types_of_text }
 
 def ipsum(type_of_text, paragraphs, words = 40):
+	"""
+		type_of_text <String> Must be a key of types_of_text defined at the top of the file.
+		paragraphs <Integer> Numbet of total paragraphs.
+		words <Integer> Number of words per paragraph.
+	"""
 	final = []
 	container = containers[type_of_text]
 	container.load()
