@@ -19,15 +19,16 @@ If interest is shown I'll add more options.
 
 ## Installation
 
-Through pip:
+Option #1 Through pip:
 ```sh
 $ pip install statlorem
 ```
 
-Cloning the repo:
+Option #2 Cloning the repo:
 ```sh
 $ git clone https://github.com/jesuscast/Statistical-Lorem.git
 ```
+Option #3 Copying the file:
 
 If you have numpy already then you can just copy the file statlorem.py into your directory if you want.
 
