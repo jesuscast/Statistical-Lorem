@@ -1,4 +1,4 @@
-# speak-zarathustra
+# Statistical-Lorem
 Bored of weird standard looking 'Lorem Ipsum'?
 Obtain theme based random paragraphs!
 
