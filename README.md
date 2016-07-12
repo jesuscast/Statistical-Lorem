@@ -4,7 +4,7 @@ Obtain theme based random paragraphs!
 
 Statistical Lorem allows you to specifify a theme, number of paragraphs, and length of paragraph:
 ```python
-from lorem import ipsum
+from statlorem import ipsum
 # Will generate 2 paragraphs with 60 words each.
 print ipsum('scifi', 2, 60)
 """
@@ -17,14 +17,25 @@ Blessed! in smallness, in shrubberies that was it and fall to the ground, then t
 We currently only support 'scifi', and 'philosophy'.
 If interest is shown I'll add more options.
 
-## Instructions
-Just copy the script lorem.py; you can clone the repo if necessary:
+## Installation
+
+Through pip:
 ```sh
-$ git clone https://github.com/jesuscast/speak-zarathustra.git
+$ pip install statlorem
 ```
 
-Now import the function 'ipsum' from the file (lorem.py):
+Cloning the repo:
+```sh
+$ git clone https://github.com/jesuscast/Statistical-Lorem.git
+```
+
+If you have numpy already then you can just copy the file statlorem.py into your directory if you want.
+
+## Usage
+Now import the function 'ipsum'
 ```python
-from lorem import ipsum
+from statlorem import ipsum
+
+# Will generate 2 paragraphs with 60 words each.
 print ipsum('scifi', 2, 60)
 ```
