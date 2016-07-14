@@ -97,7 +97,6 @@ class Analysis:
 			i equals the row = current word.
 		"""
 		k = int( random.random() * 100 )
-		k = k if k != 100 else 99
 		return self.unique_words[ int(self.probabilities[int(i)][int(k)]) ], self.probabilities[int(i)][int(k)]
 	def speak(self, n, start = None):
 		""" Obtains n words, using start as the initial word """
